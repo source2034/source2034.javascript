@@ -1,0 +1,13 @@
+# source2034.Javascript
+
+//To get the table's of any number 
+
+var n = 3     //value of n can be any whole number.
+var m = 1             
+for (var i = n; i < n+1; i++ )
+{
+    for (var h = m; h < m+10; h++)      //the test expression "m+10" value, here 10 can be changed to any number you desire.
+    {      
+        console.log(i,"x",h,"=",i*h)
+    }
+}
